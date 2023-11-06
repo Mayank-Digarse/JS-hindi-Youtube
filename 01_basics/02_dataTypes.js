@@ -20,6 +20,6 @@ let state = null
 //symbol => unique
 
 
-//object
+//object 
 
 console.log(typeof"mayank");
