@@ -1,42 +1,53 @@
-const accountId = 123344
-let accountEmail = "mayank@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
 
-//accountId = 
-/* 
-Prefer not to use var 
-because of issue in block scope and functional scope
-*/
+// const accountId = 123344
+// let accountEmail = "mayank@google.com"
+// var accountPassword = "12345"
+// accountCity = "Jaipur"
 
-accountEmail = "high"
-accountPassword = "23445"
-accountCity ="INdore"
+// //accountId = 
+// /*
+// Prefer not to use var 
+// because of issue in block scope and functional scope
+// */
 
-// console.log([accountId, accountEmail,accountPassword,accountCity]);
+// accountEmail = "high"
+// accountPassword = "23445"
+// accountCity ="INdore"
 
-let str1 = "hello"
-let str2 = "hitesh"
+// // console.log([accountId, accountEmail,accountPassword,accountCity]);
 
-let str3 = str1+str2
-//console.log(str3);
+// let str1 = "hello"
+// let str2 = "hitesh"
 
-let myYoutubename = "mayankdigarse"
-let anothername = myYoutubename
+// let str3 = str1+str2
+// //console.log(str3);
 
-anothername = "chai sutta bar"
-console.log(myYoutubename)
-console.log(anothername)
+// let myYoutubename = "mayankdigarse"
+// let anothername = myYoutubename
 
-let userOne = {
-    email: "user@google.com",
-    upi : "user@ybl"
+// anothername = "chai sutta bar"
+// console.log(myYoutubename)
+// console.log(anothername)
+
+// let userOne = {
+//     email: "user@google.com",
+//     upi : "user@ybl"
+// }
+// let userTwo = userOne;
+
+// userTwo = userOne
+// userTwo.email = "mayank@google.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor:"mayank"
 }
-let userTwo = userOne;
 
-userTwo = userOne
-userTwo.email = "mayank@google.com"
+const {courseInstructor : instructor} = course
 
-console.log(userOne.email);
-console.log(userTwo.email);
-
+console.log(instructor);
