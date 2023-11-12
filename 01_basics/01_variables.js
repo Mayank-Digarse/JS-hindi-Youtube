@@ -41,13 +41,3 @@
 // console.log(userOne.email);
 // console.log(userTwo.email);
 
-
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor:"mayank"
-}
-
-const {courseInstructor : instructor} = course
-
-console.log(instructor);
