@@ -12,7 +12,7 @@
 
 // accountEmail = "high"
 // accountPassword = "23445"
-// accountCity ="INdore"
+// accountCity ="Indore"
 
 // // console.log([accountId, accountEmail,accountPassword,accountCity]);
 
@@ -58,24 +58,3 @@
 // console.log(b);
 // console.log(c);
 
-function one(){
-    const username = "mayank"
-
-    function two(){
-        const website = "youtube"
-        console.log(username);
-    }
-    //console.log(website);
-
-    two()
-
-}
-one()
-
-if(true){
-    const username = "hitesh"
-    if(username === "hitesh"){
-        const website = " youtube"
-        console.log(username+website)
-    }
-}
